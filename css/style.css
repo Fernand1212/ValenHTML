@@ -231,10 +231,15 @@ h5 {
 }
 
 .box-logo {
-    display: block;
-    padding: 20px;
+
+    display: flex;
+    padding: 0;
 }
 
+img{
+
+    justify-content:  flex-start;
+}
 .box-primary-nav-trigger {
     position: absolute;
     right: 0;
@@ -830,7 +835,7 @@ b i:last-child {
 ==================================================*/
 
 footer {
-    padding: 30px 0;
+    padding: 0px 0;
     text-align: center;
     background: #f5f5f5
 }
